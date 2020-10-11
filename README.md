@@ -31,5 +31,6 @@ En caso de estar interesado en una introducción al uso de Selenium, adjuntamos 
 - [Descarga de Chromedriver para pruebas en Chrome](https://www.youtube.com/watch?v=dz59GsdvUF8&ab_channel=ArturSpirin)
 - [Descarga de imágenes vía URL](https://www.pyimagesearch.com/2015/03/02/convert-url-to-image-with-python-and-opencv/)
 
-
-
+Para aprovechar al máximo este repositorio y poder editarlo al momento de descargarlo se recomienda el uso de Jupyter Notebook mediante Anaconda: 
+1. Instalar [Anaconda](https://www.anaconda.com/products/individual)
+2. Abrir Jupyter Notebook
