@@ -18,3 +18,18 @@ Las imágenes utilizadas son extraídas de la base de datos [ImageNet](http://ww
 
 ##### Algoritmo
 
+Para detalles del código, podrá referirse a los integrantes de este equipo de trabajo: 
+- Victor Hugo Oyervides Covarrubias A01382836
+- Astrid Thalía Arteaga Romero A01420220
+- Felipe de Jesús Villaseñor A01382445
+- Gustavo De Los Ríos Alatorre A01410922
+- Oscar Lerma A01380817
+
+En caso de estar interesado en una introducción al uso de Selenium, adjuntamos el siguiente tutorial:
+- [Selenium with Python](https://selenium-python.readthedocs.io/)
+- [Introducción a Selenium](https://www.youtube.com/watch?v=mOAXEQevCAE&ab_channel=AutomationStepbyStep-RaghavPal)
+- [Descarga de Chromedriver para pruebas en Chrome](https://www.youtube.com/watch?v=dz59GsdvUF8&ab_channel=ArturSpirin)
+- [Descarga de imágenes vía URL](https://www.pyimagesearch.com/2015/03/02/convert-url-to-image-with-python-and-opencv/)
+
+
+
