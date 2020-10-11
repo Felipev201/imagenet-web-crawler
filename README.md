@@ -17,13 +17,46 @@ Las imágenes utilizadas son extraídas de la base de datos [ImageNet](http://ww
 4. Sci-kit image (en partícular el módulo io)
 
 ##### Algoritmo
+1. Ver la página de busqueda de image-net.org
 
-Para detalles del código, podrá referirse a los integrantes de este equipo de trabajo: 
-- Victor Hugo Oyervides Covarrubias A01382836
-- Astrid Thalía Arteaga Romero A01420220
-- Felipe de Jesús Villaseñor A01382445
-- Gustavo De Los Ríos Alatorre A01410922
-- Oscar Lerma A01380817
+```
+driver.get("http://image-net.org/index")
+```
+2. Selecionar el temino a buscar
+
+```
+elem.send_keys("cat")
+elem.send_keys(Keys.RETURN)
+```
+3. Encontrar los URLS, resultados de la busqueda
+
+```
+URLss = driver.find_element_by_tag_name('pre')
+```
+4. Dividir los URLS en testing y training
+
+```
+dividir = int(len(URLs)*0.80)
+URL_train = URLs[0:dividir]
+URL_test = URLs[dividir:-1]
+```
+5. Descargar las imagenes, normbradas con índices, en la carpetas selecionadas
+
+```
+for url in URL_train:
+    name = carpeta + 'cat_train' + str(it) + '.jpg'
+    image = io.imread(url)
+    image1 = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    cv2.imwrite(name,image1)
+    cv2.waitKey(0)
+    it= it + 1
+```
+
+##### Contribuidores
+* [GustavoDLRA](https://github.com/GustavoDLRA)
+* [hugoyervides](https://github.com/hugoyervides)
+* Astrid
+* [olefran](https://github.com/olefran)
 
 En caso de estar interesado en una introducción al uso de Selenium, adjuntamos el siguiente tutorial:
 - [Selenium with Python](https://selenium-python.readthedocs.io/)
