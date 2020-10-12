@@ -51,7 +51,7 @@ for url in URL_train:
     cv2.waitKey(0)
     it= it + 1
 ```
-##### Las imagenes son distribuidas en sus respectivas carpetas de training y test.
+##### Las imagenes son distribuidas en sus respectivas carpetas de test_images y train_images.
 ![](Carpetas.jpeg)
  
 ##### Contribuidores
