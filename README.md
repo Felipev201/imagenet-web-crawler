@@ -51,7 +51,7 @@ for url in URL_train:
     cv2.waitKey(0)
     it= it + 1
 ```
-
+![](Carpetas.jpeg)
 ##### Contribuidores
 * [GustavoDLRA](https://github.com/GustavoDLRA)
 * [hugoyervides](https://github.com/hugoyervides)
