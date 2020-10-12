@@ -52,6 +52,7 @@ for url in URL_train:
     it= it + 1
 ```
 ![](Carpetas.jpeg)
+Las imagenes son distribuidas en sus respectivas carpetas de training y test. 
 ##### Contribuidores
 * [GustavoDLRA](https://github.com/GustavoDLRA)
 * [hugoyervides](https://github.com/hugoyervides)
