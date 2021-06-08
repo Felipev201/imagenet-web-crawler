@@ -59,6 +59,7 @@ for url in URL_train:
 * [hugoyervides](https://github.com/hugoyervides)
 * Astrid
 * [olefran](https://github.com/olefran)
+* [Felipe](https://github.com/Felipev201)
 
 En caso de estar interesado en una introducción al uso de Selenium, adjuntamos el siguiente tutorial:
 - [Selenium with Python](https://selenium-python.readthedocs.io/)
